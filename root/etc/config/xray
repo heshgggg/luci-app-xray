@@ -125,7 +125,7 @@ config routing_balancer 'defalt_balancer'
 	option leastSampling '2'
 	option leastConnectivity 'http://connectivitycheck.platform.hicloud.com/generate_204'
 	option subjectSelector 'a'
-	list subjectSelector 'ab'
+	option list subjectSelector 'ab'
 
 config policy 'main_policy'
 	option enabled '0'
